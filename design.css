@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+#password{ 
+    -webkit-text-security: disc; 
+    /*background-image: url('https://shots.jotform.com/jan/images/lock-icon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 5px;*/
+}
+.login-form h1{
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 6px solid rgb(0, 86, 167);
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+.login-form{
+    width: 320px;
+    height: 230px;
+    background: #E6DDDD;
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.textbox{
+    width: 100%;
+    left: 30%;
+    overflow: hidden;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 86, 167);
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    padding: 8px 0;
+    margin: 8px 0;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+}
+#btn-login{
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(135, 162, 194);
+    color: rgb(2, 9, 104);
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 200px;
+    left: 20%;
+}
+#btn-login:hover{
+    cursor: pointer;
+    background-color: darkorange; 
+}

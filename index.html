@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Empty homepage</title>
+
+		<link rel="stylesheet" href="design.css">
+	<body>
+		<div class="login-form" onsumbit="return false">
+      <img src="logo.png" class="logo">
+			<h1>Login</h1>
+			<div class="textbox">
+				<input type="text" name="ucid" id="ucid" placeholder="UCID">
+			</div>
+			<div class = "textbox">
+				<input type="text" name="password" id="password" placeholder="Password">
+			</div>
+			<p id="respText"></p>
+			<p id="cred-check"></p>
+			<button id="btn-login" onclick="ajaxLogin()" align="right">Login</button>
+			<script src="login.js"></script>
+		</div>
+	</body>
+ </head>
+</html>
