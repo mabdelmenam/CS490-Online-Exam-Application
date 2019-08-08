@@ -1,0 +1,79 @@
+.b{
+    display: inline-block;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    width: 200px;
+    padding: 8px;
+    color: rgb(2, 9, 104);
+    background-color: transparent;
+    border: 0px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.3s ease-out,
+                background-color 0.3s ease-out,
+                border-color 0.3s ease-out;
+  }
+  .b:hover,
+  .b:active {
+    /*background-color: #9363c4;*/
+    border: 0px solid #fff;
+    border-color: #9363c4;
+    color: rgb(255, 115, 1);
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
+
+.header {
+    padding: 50px;
+    text-align: center;
+}
+#prof{
+    height: 27px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.637);
+    color: rgb(2, 9, 104);
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    float: right;
+}
+#logout{
+    height: 27px;
+    top: -20px;
+    font-size: 15px;
+    background-color: rgba(239, 226, 226, 0.637);
+    color: rgb(255, 35, 0);
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    float: right;
+    position:relative;
+    top: 40px;
+    left: 160px;
+    font-weight:bold;
+    text-decoration:none;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+.container .b {
+    margin: 20px;
+    text-align: center;
+  }
+.pic{
+    display: block;
+    margin: 0 auto; 
+    margin-top: 20px;
+    width:500; 
+    height:350;
+}
+
+
