@@ -1,0 +1,145 @@
+label{
+  display: inline-block;
+  margin-bottom: 20px;
+ }
+ .qform1{
+  width: 200px;
+  height: auto;
+  background: #ffcd06;
+  border-radius: 25px;
+ }
+ .qform1 h4{
+   text-align: center;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   color: rgb(2, 9, 104);
+ }
+ .question-form{
+  width: 445px;
+  height: auto;
+  background: #B0C4DE;
+  border-radius: 25px;
+  padding: 20px;
+ }
+ .textbox{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(0, 86, 167);
+}
+.textbox input{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: black;
+  font-size: 13px;
+}
+ .header {
+  padding: 50px;
+  text-align: center;
+}
+.b{
+  display: inline-block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  width: 200px;
+  padding: 8px;
+  border: 3px solid #001bb3;
+  color: rgb(0, 232, 255);
+  background-color: transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.b:hover,
+.b:active {
+  /*background-color: #9363c4;*/
+  border: 0px solid #fff;
+  border-color: #9363c4;
+  color: rgb(255, 115, 1);
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+.container .b {
+  margin: 20px;
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding:0;
+  background-image: url("background.jpg");
+  background-size: cover;
+
+}
+#prof{
+  height: 27px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.637);
+  color: rgb(2, 9, 104);
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 160px;
+  text-align: center;
+  float: right;
+}
+#logout{
+    height: 27px;
+    top: -20px;
+    font-size: 15px;
+    background-color: rgba(239, 226, 226, 0.637);
+    color: rgb(255, 35, 0);
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    float: right;
+    position:relative;
+    top: 40px;
+    left: 160px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/*---------------------------------------------------------------------*/
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

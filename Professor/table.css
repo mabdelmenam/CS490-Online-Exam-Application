@@ -1,0 +1,159 @@
+.hide_ID{
+  display: none;
+}
+.noDISPLAY{
+  display:none;
+}
+
+body {
+  background-color: #3e94ec;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+.table-title{
+  width: 200px;
+  left: 420px;
+  height: 70px;
+  top: -255;
+  position: relative;
+  background: #ffcd06;
+  border-radius: 25px;
+ }
+ .table-title h4{
+   text-align: center;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   color: rgb(2, 9, 104);
+ }
+/*** Table Styles **/
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  top: -320px;
+  position: relative;
+  max-width: 800px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size: 15px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#dbebff;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:13px;
+  text-shadow: -1px -1px 1px rgba(255, 0, 0, 0.1);
+  border-right: 1px solid #ffcd00;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+ .qform2{
+  width: 115px;
+  left: 505px;
+  height: 70px;
+  top: -305;
+  position: relative;
+  background: #ffcd06;
+  border-radius: 25px;
+ }
+ .qform2 h4{
+   text-align: center;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   color: rgb(2, 9, 104);
+ }
+ .question-form2{
+  width: 1000px;
+  position:relative;
+  margin: auto;
+  height: auto;
+  border-radius: 25px;
+  padding: 20px;
+ }
+ .wrapper table{
+  float: right;
+  margin-top: 10px;
+  border-collapse:collapse;
+  width: 600px;
+}
+.wrapper td{
+  border: 3px solid rgb(0, 86, 167);
+}
+.wrapper .hide{
+  background: #ff9;
+  display: none;
+}
+.wrapper{
+  position:relative;
+  float: right;
+}
+#filter{
+  position:relative;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  top: -345;
+  left: 505px;
+  width: 460px;
+  height: auto;
+  background: #B0C4DE;
+  border-radius: 25px;
+  padding: 20px
+}
